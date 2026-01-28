@@ -1,0 +1,16 @@
+export const weatherIcons = {
+  0: "☀️",        // Clear
+  1: "🌤️",        // Mainly clear
+  2: "⛅",        // Partly cloudy
+  3: "☁️",        // Overcast
+  45: "🌫️",       // Fog
+  48: "🌫️",
+  51: "🌦️",       // Drizzle
+  61: "🌧️",       // Rain
+  71: "❄️",       // Snow
+  80: "🌧️",
+  95: "⛈️"        // Thunderstorm
+};
+
+export const getWeatherIcon = (code) =>
+  weatherIcons[code] || "❓";

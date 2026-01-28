@@ -1,0 +1,22 @@
+body {  
+  margin: 0 auto; 
+  max-width: 1440px;
+  width: 100%;  
+  height: auto;
+  background-color: hsl(243, 96%, 9%);
+  /* background-color: hsl(245, 17%, 86%); */
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    width: auto;
+    height: 500px;
+    margin-bottom: 200px;
+}
+
+h1, p {
+    color: white;
+}
