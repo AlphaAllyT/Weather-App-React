@@ -7,7 +7,9 @@ const app = express();
 
 //middle ware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: "https://weather-app-react-1-qkif.onrender.com" // <- frontend URL
+}));
 
 //API routes 
 
