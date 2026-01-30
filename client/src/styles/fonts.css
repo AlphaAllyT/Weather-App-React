@@ -7,11 +7,10 @@
 }
 
 /* DM Sans - normal */
+
 @font-face {
   font-family: "DM Sans";
-  src: url("/fonts/DM-Sans/DMSans-VariableFont_opsz,wght.ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
+  src: url("/fonts/DMSans-VariableFont_opsz,wght.ttf");
 }
 
 h1 {
