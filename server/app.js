@@ -10,13 +10,7 @@ app.use(express.json());
 //Allow your frontend domain
 app.use(cors({
   origin: "https://weather-app-react-1-qkif.onrender.com",
-  methods: ["GET","POST","OPTIONS"],
-  allowedHeaders: ["Content-Type"],
-  credentials: true
 }));
-
-//Handle OPTIONS requests (preflight)
-app.options("*", cors());
 
 //API routes 
 
