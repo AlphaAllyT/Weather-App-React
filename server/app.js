@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 //Allow your frontend domain
 app.use(cors({
-  origin: "https://weather-app-react-1-qkif.onrender.com",
+  origin: "https://weather-app-react-r69d.onrender.com",
 }));
 
 //API routes 
