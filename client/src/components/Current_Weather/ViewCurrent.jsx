@@ -3,7 +3,7 @@ import "./CurrentView.css"
 
 function CurrentView(props) {
     return (
-        <div className="box">
+        <div className="currentBox">
             <div>
                 <p style={{fontSize: "2rem", fontWeight: "bold"}}>{props.placeName}</p> 
                 <p>{props.date}</p>

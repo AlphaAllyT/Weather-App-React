@@ -66,7 +66,7 @@ function App() {
                             
                 />
 
-                <div style={{ display: "flex", padding: "0" }}>
+                <div className="currentTemp">
 
                     {[        
                         {title: "Feels like", number: Math.floor(weather.current.feelsLike)+"°"},

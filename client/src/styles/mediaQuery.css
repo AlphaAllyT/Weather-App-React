@@ -1,13 +1,14 @@
 @media (min-width: 601px) and (max-width: 1040px){
   /* tablets */
-
-    body {  
-        background-color: white;
-        /* background-color: hsl(245, 17%, 86%); */
-        };
+    
     .gridContainer {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .currentTemp {
+        flex-wrap: wrap;
     }
 
 }

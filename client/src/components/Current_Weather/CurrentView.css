@@ -1,10 +1,10 @@
-.box {
-    display: "flex";
-    justify-content: "space-between";
-    align-items: "center";
-    background-image: "url('/images/bg-today-large.svg')";
-    background-size: "cover";
-    background-position: "center";
+.currentBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('/images/bg-today-large.svg');
+    background-size: cover;
+    background-position: center;
     border-radius: 15px;
     padding: 20px 50px;
     max-width: 100%;

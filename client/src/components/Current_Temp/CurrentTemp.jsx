@@ -2,11 +2,14 @@ import React from "react";
 
 const box = {
     background: "hsl(243, 27%, 20%)",
-    borderRadius: "15px",     
+    borderRadius: "15px",   
+    maxWidth: "210px",
     width: "100%",
     height: "auto",
     margin: "20px 20px 30px 0",
-    padding: "0"
+    padding: "0",
+    flex: "1 1 180",
+    minWidth: "150",
 }
 
 function CurrentTemp(props) {

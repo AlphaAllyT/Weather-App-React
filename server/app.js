@@ -2,12 +2,14 @@ import express from "express";
 import axios from "axios";
 import cors from "cors";
 
-const port = process.env.PORT || 5000;
+// process.env.PORT || 
+
+const port = 5000;
 const app = express();
 
-//middle ware
+//middle ware 
 app.use(express.json());
-//Allow your frontend domain
+//Allow your frontend domain - "http://localhost:5173"
 app.use(cors({
   origin: "https://weather-app-react-r69d.onrender.com"
 }));

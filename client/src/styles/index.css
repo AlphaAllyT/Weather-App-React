@@ -13,10 +13,17 @@ body {
     grid-template-rows: 1fr;
     gap: 10px;
     width: auto;
-    height: 500px;
+    max-height: 500px;
+    height: 100%;
     margin-bottom: 200px;
 }
 
 h1, p {
     color: white;
+}
+
+.currentTemp {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
