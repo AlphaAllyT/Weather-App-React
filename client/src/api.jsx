@@ -1,7 +1,7 @@
 import React from "react";
 
 // Use the VITE_API_URL environment variable - didnt work so i had to hardcode my URL  - "https://weather-app-react-backend.onrender.com"
-const API_URL = import.meta.env.VITE_API_URL; 
+const API_URL = "https://weather-app-react-backend.onrender.com"; 
 
 export async function SendInputToServer(inputValue) {
   try {
