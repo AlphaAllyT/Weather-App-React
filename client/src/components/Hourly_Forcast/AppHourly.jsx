@@ -1,13 +1,9 @@
 import react, {useState}  from 'react'
 import HourlyForcast from './HourlyForcast';
 import HourlyTemp from './HourlyTemp';
+import { height } from '@mui/system';
 
-const box = {
-    background: "hsl(243, 27%, 20%)",
-    borderRadius: "15px",
-    maxWidth: "100%",
-    padding: "20px"
-};
+import "./HourlyForcast.css"
 
 function AppHourly({weatherHourly}) {
 
@@ -22,7 +18,7 @@ function AppHourly({weatherHourly}) {
     );
 
     return (
-        <div style={box}>
+        <div className="apphourBox">
             <div style={{display: "flex", justifyContent: "space-between"}}>
                 <p>Hourly forecast</p>
                 <HourlyForcast 

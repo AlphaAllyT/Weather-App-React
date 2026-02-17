@@ -46,7 +46,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className= "body">
       <NavbarControl />
 
       {/* Input triggers API call */}
@@ -82,9 +82,9 @@ function App() {
 
                 </div>
 
-                <p>Daily forecast</p>
+                <p style={{fontSize: "1.2rem"}}>Daily forecast</p>
 
-                <div style={{ display: "flex" }}>  
+                <div className= "dailyTemp">  
                     {weather.daily.map((dayOjt, index) => (
                         <DailyTemp
                             key = {index}
@@ -96,11 +96,13 @@ function App() {
                     ))}        
                       
                 </div>
+            </div > 
+            <div className= "">                 
+              <AppHourly weatherHourly={formattedHourly} />      
             </div>        
-                <AppHourly weatherHourly={formattedHourly} />            
-            </div>
-            )}
         </div>
+            )}
+    </div>
   );
 }
 

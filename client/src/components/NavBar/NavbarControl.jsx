@@ -1,13 +1,15 @@
 import react from "react";
 import NavSelect from "./NavbarDrop";
 
+import "./navbarStyle.css";
+
 function NavbarControl() {
     return(
-        <div style={{display: "flex", justifyContent: "space-between", padding: "50px 20px 0 20px"}}>
-            <div>
-                <img src="/images/logo.svg" alt="Weather now logo" />
+        <div className="navStyle">
+            <div className="logo">
+                <img src="/images/logo.svg" alt="Weather now logo"/>
             </div>
-            <div>
+            <div className="navSelect" >
                 <NavSelect />
             </div>
         </div>

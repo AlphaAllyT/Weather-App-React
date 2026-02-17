@@ -1,0 +1,14 @@
+.dailyTempBox {
+    background: hsl(243, 27%, 20%);
+    border-radius: 15px;
+    max-width: 100px;
+    min-width: 80px;
+    width: 100%; 
+    padding: 5px 15px 5px 15px;  
+    flex-wrap: 1 1 150px;
+}
+
+.dailyIcon {
+    text-align: center;    
+    font-size: 2rem;
+}

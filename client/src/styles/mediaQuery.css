@@ -1,14 +1,184 @@
-@media (min-width: 601px) and (max-width: 1040px){
-  /* tablets */
-    
+@media (min-width: 300px) and (max-width: 1040px){  /* tablets */  
+
     .gridContainer {
         display: grid;
         grid-template-columns: 1fr;
+        gap: 20px;   
+        padding: 0;     
+    }
+    
+    .apphourBox {
+        margin: 0;
+    }
+}    
+
+@media (min-width: 900px) and (max-width: 1308px){ 
+
+    .hourlyBox {
+        height: 100vh;        
+    }
+
+    .currentTemp {
+        font-size: 6.5rem;
+    }
+
+    .currentIcon {
+        font-size: 3.5rem;  
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px){ 
+
+    
+    .placeName {
+        font-size: 2rem;
+    }
+
+    .currentTemp {
+        font-size: 6.5rem;
+    }
+
+    .currentIcon {
+        font-size: 3.5rem;  
+    }
+
+    .formStyle h1 {
+        font-size: 2.5rem;
+    }
+
+    .inputStyle {
+        width: 300px;
+        height: 33px;
+        margin-right: 15px;   
+   
+    }
+
+}
+
+@media (min-width: 701px) and (max-width: 1308px){ 
+
+    .currentTemp {
+            flex-wrap: wrap;
+            margin: 0;
+        }
+
+    .dailyTemp {
+        flex-wrap: wrap;     
         gap: 20px;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 700px){ 
+
+    .formStyle h1 {
+        font-size: 2rem;
+    }
+
+    .inputStyle {
+        width: 250px;
+        height: 33px;
+        margin: 0 15px 0 0;   
+   
+    }
+
+    .placeName {
+        font-size: 2rem;  
+    }
+
+    .currentIcon {
+        font-size: 3.5rem; 
+    }
+
+    .currentTemp {
+        font-size: 5rem;
     }
 
     .currentTemp {
         flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .dailyTemp {
+        flex-wrap: wrap;     
+        gap: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navSelect {
+        display: none;
+    }
+
+    .logo img {
+        width: 160px;
+        height: auto;
+    }
+
+    .formStyle h1 {
+        padding: 30px 10px;
+        font-size: 2rem;
+    }
+
+    .inputStyle {
+        width: 80%;
+        height: 33px;
+        margin: 0 0 10px 0;      
+    }
+
+    .buttonChange {
+        width: 85%;
+        background-color: hsl(233, 67%, 56%);
+        color: hsl(0, 0%, 100%);        
+    }
+
+    .placeName {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .currentIcon {
+        font-size: 3rem;  
+        
+    }
+
+    .currentBox {
+        background-image: url('/images/bg-today-small.svg');
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+
+    .currentTemp {
+        flex-wrap: wrap;
+        font-size: 5.5rem; 
+    }
+
+    .tempBox {    
+        width: 150px;   
+        padding: 10px 0 10px 0;       
+    }
+
+    .tempTitle {
+        font-size: 1.2rem;
+    }
+
+    .tempNumber {
+        font-size: 1rem;
+    }
+
+    .dailyTempBox {
+        padding: 0 15px 0 15px;  
+    }
+
+    .dailyTemp {
+        flex-wrap: wrap;     
+        gap: 20px;       
+    }
+
+    .dailyIcon {
+        font-size: 1.3rem;
     }
 
 }

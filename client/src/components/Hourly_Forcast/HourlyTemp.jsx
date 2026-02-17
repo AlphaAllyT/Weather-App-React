@@ -9,7 +9,7 @@ import "./HourlyForcast.css"
 function HourlyTemp({hourlyTemp}) {
     return (
         <Box className= "hourlyBox">
-            <List style={{overflowY: "auto", width: "450px"}}>
+            <List style={{overflowY: "auto", width:"200%"}}>
                 {hourlyTemp.map((item, index) => (
                     <ListItem key={index}>
                     <ListItemText

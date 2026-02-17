@@ -5,12 +5,12 @@ function CurrentView(props) {
     return (
         <div className="currentBox">
             <div>
-                <p style={{fontSize: "2rem", fontWeight: "bold"}}>{props.placeName}</p> 
+                <p className="placeName" >{props.placeName}</p> 
                 <p>{props.date}</p>
             </div>
-            <div style={{display:"flex"}}>
-                <p style={{padding: "60px 40px", fontSize: "4rem"}}>{props.icon}</p>
-                <p style={{fontSize: "6rem"}}>{props.temp}</p>p
+            <div className="placeTemp">
+                <p className="currentIcon">{props.icon}</p>   
+                <p className="currentTemp">{props.temp}</p>             
             </div>
         </div>    
     ) 

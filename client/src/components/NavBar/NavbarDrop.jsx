@@ -31,7 +31,7 @@ function NavSelect() {
     <div>
       <FormControl
         sx={{
-          minWidth: 180,
+          minWidth: 150,
           borderRadius: "10px",
           backgroundColor: "hsl(243, 27%, 20%)",
         }}

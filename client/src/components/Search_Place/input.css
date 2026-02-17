@@ -1,0 +1,25 @@
+.formStyle {
+    text-align: center;
+    padding: 0 0 60px 0;
+}
+
+.formStyle h1 {
+    font-size: 3rem;
+}
+
+.inputStyle {
+    width: 400px;
+    height: 33px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.buttonChange {
+    background-color: hsl(233, 67%, 56%);
+    color: hsl(0, 0%, 100%);
+}
+
+.buttonChange:hover {
+    background-color: hsl(248, 70%, 36%)
+}
